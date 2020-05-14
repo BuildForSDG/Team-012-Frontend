@@ -1,4 +1,4 @@
-# Team-029 frontend application
+# Team-012 Zero Hunger Solutions
 
 ## Build tools
 - React
