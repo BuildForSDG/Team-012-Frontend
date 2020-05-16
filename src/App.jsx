@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.scss';
+import { Button } from 'reactstrap';
+import NavBarComponent from './components/navbar/navbar.jsx';
 
 function App() {
   return (
     <div className="app">
+      <NavBarComponent />
       <header className="app">
       <p>What he Do??</p>
       </header>
@@ -14,6 +17,8 @@ function App() {
           rel="noopener noreferrer">
           Learn React
         </a>
+
+        <Button color="danger">Danger!</Button>
     </div>
   );
 }

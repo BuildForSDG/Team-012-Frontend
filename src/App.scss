@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-
 @import './variables';
 
 .app {
-	background-color: $background;
-	color: $primary-color;
-	min-width: 100vw;
-	min-height: 100vh;
-	padding: 4rem 2rem;
+  background-color: $background-color;
+  color: $primary-text-color;
 }
 
 * {
-	font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
 }
