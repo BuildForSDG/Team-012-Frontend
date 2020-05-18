@@ -1,24 +1,20 @@
 import React from 'react';
 import './App.scss';
-import { Button } from 'reactstrap';
-import NavBarComponent from './components/navbar/navbar.jsx';
+// import { Button } from 'reactstrap';
+import MenuBarComponent from './components/navbar/navbar.jsx';
+import LandingPage from './pages/landing/landing.jsx';
 
 function App() {
   return (
     <div className="app">
-      <NavBarComponent />
-      <header className="app">
-      <p>What he Do??</p>
-      </header>
-
+      <MenuBarComponent />
+      <LandingPage />
       <a
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer">
-          Learn React
+          Eliminating Hunger
         </a>
-
-        <Button color="danger">Danger!</Button>
     </div>
   );
 }

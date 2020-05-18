@@ -2,14 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import './variables';
 
-.app {
-  background-color: $background-color;
-  color: $primary-text-color;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  background-color: $background-color;
+  color: $primary-text-color;
 }

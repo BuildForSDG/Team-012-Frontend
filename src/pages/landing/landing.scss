@@ -1,0 +1,54 @@
+@import '../../variables';
+
+.container {
+  background-image: url('../../assets/food-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  line-height: 1.5;
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: $primary-color;
+    opacity: 0.25;
+    position: absolute;
+  }
+
+}
+
+section {
+  z-index: 4;
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+}
+
+.solutions {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+  .card-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
