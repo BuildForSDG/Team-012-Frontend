@@ -7,7 +7,7 @@ import {
 import './card.scss';
 
 
-const CardsComponent = (props) => {
+const CardDisplay = (props) => {
   const {title, text, image, buttonText } = props.item;
   // eslint-disable-next-line no-console
   console.log(title, text, image, buttonText);
@@ -26,8 +26,8 @@ const CardsComponent = (props) => {
   );
 };
 
-export default CardsComponent;
+export default CardDisplay;
 
-CardsComponent.propTypes = {
+CardDisplay.propTypes = {
   item: PropTypes.any
 }

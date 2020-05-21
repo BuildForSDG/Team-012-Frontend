@@ -3,6 +3,7 @@ import './App.scss';
 // import { Button } from 'reactstrap';
 import MenuBarComponent from './components/navbar/navbar.jsx';
 import LandingPage from './pages/landing/landing.jsx';
+import FooterComponent from './components/footer/footer.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           rel="noopener noreferrer">
           Eliminating Hunger
         </a>
+        <FooterComponent />
     </div>
   );
 }
